@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ShoppingBag, User, Search, Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -17,7 +18,9 @@ export default function Header() {
         </div>
 
         {/* Center Section - Clickable Logo */}
-        <a href="/" className="text-2xl md:text-4xl font-serif tracking-widest flex-1 text-center">GUCCI</a>
+        <Link href="/" className="text-2xl md:text-4xl font-serif tracking-widest flex-1 text-center">
+          GUCCI
+        </Link>
 
         {/* Right Section - Icons */}
         <div className="flex items-center space-x-5 md:space-x-7">
@@ -34,7 +37,7 @@ export default function Header() {
       <div
         className={`fixed inset-0 transition-all duration-500 ${
           isOpen ? "backdrop-blur-md bg-black/50 pointer-events-auto" : "backdrop-blur-0 bg-transparent pointer-events-none"
-        } z-[40]`} // Ensuring it's behind images
+        } z-[40]`} 
         onClick={() => setIsOpen(false)}
       ></div>
 
@@ -42,7 +45,7 @@ export default function Header() {
       <div
         className={`fixed top-0 right-0 h-full w-3/4 md:w-1/2 bg-gray-950 text-white shadow-lg transform transition-transform duration-500 ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        } z-[50] overflow-hidden`} // Added overflow-hidden to prevent layout shifts
+        } z-[50] overflow-hidden`}
       >
         {/* Close Button */}
         <button 
@@ -66,7 +69,6 @@ export default function Header() {
             <a href="#" className="hover:text-gray-400">Jewelry & Watches</a>
             <a href="#" className="hover:text-gray-400">Décor & Lifestyle</a>
             <a href="#" className="hover:text-gray-400">Fragrances & Make-Up</a>
-            {/* Extra Items to Test Scrolling */}
             <a href="#" className="hover:text-gray-400">Clothing</a>
             <a href="#" className="hover:text-gray-400">Accessories</a>
             <a href="#" className="hover:text-gray-400">Watches</a>

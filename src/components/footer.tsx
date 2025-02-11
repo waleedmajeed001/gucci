@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="text-center border-b border-black pb-6">
         <h3 className="text-sm font-bold tracking-widest">SIGN UP FOR GUCCI UPDATES</h3>
         <p className="mt-3 text-lg">
-          Get exclusive updates on the collection's launch, personalized
-          communication, and the House's latest news.
+          Get exclusive updates on the collection&apos;s launch, personalized
+          communication, and the House&apos;s latest news.
         </p>
         <button className="mt-4 border-black px-4 py-2 uppercase text-sm tracking-wider">
           + Subscribe
