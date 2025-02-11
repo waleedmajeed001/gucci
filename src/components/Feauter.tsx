@@ -6,7 +6,7 @@ const FeatureSection = () => {
   return (
     <section className="flex bg-black flex-col items-center justify-center min-h-[100vh] px-6 max-w-7xl mx-auto">
       {/* Feature Title */}
-      <h1 className="mt-20 text-center mb-12">FEATURED COLLECTION</h1>
+      <h1 className="mt-20 text-white text-center mb-12">FEATURED COLLECTION</h1>
 
       <div className="flex flex-col md:flex-row items-center w-full">
         {/* Left Side - Image */}
@@ -22,8 +22,8 @@ const FeatureSection = () => {
 
         {/* Right Side - Text */}
         <div className="w-full md:w-1/2 flex flex-col items-center text-center p-8">
-          <h2 className="text-4xl ">WHERE LIGHT FINDS US</h2>
-          <p className="mt-6  text-gray-600 max-w-lg">
+          <h2 className="text-4xl text-white ">WHERE LIGHT FINDS US</h2>
+          <p className="mt-6  text-gray-400 max-w-lg">
             Yara Shahidi and George MacKay star in the new Spring <br /> Summer 2025
             campaign, an evocative story of balance <br /> and connection.
           </p>

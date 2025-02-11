@@ -6,7 +6,7 @@ const ServicesSection = () => {
   return (
     <section className="max-w-7xl bg-black mx-auto px-6 py-12 text-center">
       {/* Section Title */}
-      <h2 className="text-3xl font-semibold mb-10">GUCCI SERVICES</h2>
+      <h2 className="text-3xl text-white font-semibold mb-10">GUCCI SERVICES</h2>
 
       {/* Services Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -25,11 +25,11 @@ const ServicesSection = () => {
                 className="transition duration-300 hover:scale-110"
               />
             </div>
-            <h3 className="mt-6 text-lg font-semibold">{service.title}</h3>
-            <p className="mt-2 text-gray-600 text-sm max-w-xs">{service.description}</p>
+            <h3 className="mt-6 text-lg text-white font-semibold">{service.title}</h3>
+            <p className="mt-2 text-gray-400 text-sm max-w-xs">{service.description}</p>
             <a
               href="#"
-              className="mt-4 text-sm font-semibold relative inline-block after:content-[''] after:block after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              className="mt-4 text-sm text-white font-semibold relative inline-block after:content-[''] after:block after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
             >
               {service.linkText}
             </a>

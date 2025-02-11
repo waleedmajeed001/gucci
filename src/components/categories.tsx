@@ -12,7 +12,7 @@ const categories = [
 const Categories = () => {
   return (
     <section className="py-16 bg-black">
-      <h2 className="text-center text-3xl mb-10">CURATED BY THE HOUSE</h2>
+      <h2 className="text-center text-white text-3xl mb-10">CURATED BY THE HOUSE</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-4 max-w-6xl mx-auto">
         {categories.map((category) => (
           <div key={category.id} className="group overflow-hidden ">
@@ -24,7 +24,7 @@ const Categories = () => {
                 objectFit="cover"
               />
             </div>
-            <p className="text-center mt-4 text-lg ">{category.title}</p>
+            <p className="text-center text-white mt-4 text-lg ">{category.title}</p>
           </div>
         ))}
       </div>
